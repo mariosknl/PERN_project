@@ -7,7 +7,7 @@ import UpdatePage from "./routes/UpdatePage";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <Router>
         <Switch>
           <Route path="/restaurants/:id/update" component={UpdatePage} />
