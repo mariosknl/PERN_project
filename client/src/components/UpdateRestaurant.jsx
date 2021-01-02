@@ -28,7 +28,6 @@ const UpdateRestaurant = (props) => {
       location,
       price_range: priceRange,
     });
-    console.log(updatedRestaurant);
     history.push("/");
   };
 
