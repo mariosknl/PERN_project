@@ -26,7 +26,7 @@ app.get("/api/v1/restaurants", async (req, res) => {
 });
 
 // Get individual restaurant
-app.get("/api/v1/restaurant/:id", async (req, res) => {
+app.get("/api/v1/restaurants/:id", async (req, res) => {
   try {
     const results = await db.query("select * from restaurants where id=$1", [
       req.params.id,
