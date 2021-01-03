@@ -26,7 +26,7 @@ const RestaurantDetailPage = () => {
   return (
     <div>
       <h1 className="text-center display-1">
-        {selectedRestaurant.restaurant.name}
+        {selectedRestaurant && selectedRestaurant.restaurant.name}
       </h1>
       {selectedRestaurant && (
         <>
